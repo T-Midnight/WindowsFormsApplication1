@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Data.SQLite;
+using WindowsFormsApplication1.forms;
+
 namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
@@ -15,6 +18,13 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+            
+        }
+
+        private void btnOpenFStorage_Click(object sender, EventArgs e)
+        {
+            FStorage fStorage = new FStorage();
+            fStorage.ShowDialog();
         }
     }
 }

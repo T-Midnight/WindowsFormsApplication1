@@ -8,5 +8,4 @@ C:\Users\Regener\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\
 C:\Users\Regener\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\Regener\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Regener\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-C:\Users\User\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-C:\Users\User\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.forms.FStorage.resources
