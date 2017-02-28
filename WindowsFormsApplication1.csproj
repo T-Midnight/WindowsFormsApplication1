@@ -49,6 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="entities\Availability.cs" />
+    <Compile Include="entities\BasketEntity.cs" />
+    <Compile Include="entities\ClientEntity.cs" />
+    <Compile Include="entities\OrderEntity.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
