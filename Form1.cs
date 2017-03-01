@@ -26,5 +26,11 @@ namespace WindowsFormsApplication1
             FStorage fStorage = new FStorage();
             fStorage.ShowDialog();
         }
+
+        private void btnOpenFProduct_Click(object sender, EventArgs e)
+        {
+            FProduct fProduct = new FProduct();
+            fProduct.ShowDialog();
+        }
     }
 }

@@ -55,6 +55,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\FProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FProduct.Designer.cs">
+      <DependentUpon>FProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\FStorage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,11 +68,15 @@
       <DependentUpon>FStorage.cs</DependentUpon>
     </Compile>
     <Compile Include="manager\DBManager.cs" />
+    <Compile Include="manager\ProductEntity.cs" />
     <Compile Include="manager\StorageEntity.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FProduct.resx">
+      <DependentUpon>FProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\FStorage.resx">
       <DependentUpon>FStorage.cs</DependentUpon>
