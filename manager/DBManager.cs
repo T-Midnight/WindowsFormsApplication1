@@ -56,10 +56,10 @@ namespace WindowsFormsApplication1.manager
             try
             {
                 SQLiteConnection sql = new SQLiteConnection(@"Data Source=" + path + ";Version=3");
-                SQLiteCommand command = new SQLiteCommand(query, sql);
-                sql.Open();
-                command.ExecuteNonQuery();
-                sql.Close();
+                SQLiteCommand command = new SQLiteCommand(query, sql); //запрос
+                sql.Open();//открыли подключение к бд
+                command.ExecuteNonQuery();//выполнили команду
+                sql.Close();//закрыли
             }
             catch (Exception e)
             {
@@ -85,8 +85,8 @@ namespace WindowsFormsApplication1.manager
             try
             {
                 SQLiteConnection sql = new SQLiteConnection(@"Data Source=" + path + ";Version=3");
-                sql.Open();
                 SQLiteCommand command = new SQLiteCommand(query, sql);
+                sql.Open();
                 SQLiteDataReader sdr = command.ExecuteReader();
                 data = new DataTable();
                 data.Load(sdr);

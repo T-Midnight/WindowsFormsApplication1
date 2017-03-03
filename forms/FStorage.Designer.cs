@@ -45,9 +45,9 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(509, 352);
+            this.btnConnect.Location = new System.Drawing.Point(496, 352);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(75, 23);
+            this.btnConnect.Size = new System.Drawing.Size(88, 23);
             this.btnConnect.TabIndex = 0;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -63,7 +63,7 @@
             // 
             // tbDateReceipt
             // 
-            this.tbDateReceipt.Location = new System.Drawing.Point(283, 467);
+            this.tbDateReceipt.Location = new System.Drawing.Point(286, 471);
             this.tbDateReceipt.Name = "tbDateReceipt";
             this.tbDateReceipt.Size = new System.Drawing.Size(100, 20);
             this.tbDateReceipt.TabIndex = 2;
@@ -98,7 +98,7 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(496, 464);
+            this.btnInsert.Location = new System.Drawing.Point(496, 468);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(88, 23);
             this.btnInsert.TabIndex = 7;
@@ -129,7 +129,7 @@
             // 
             // btnAllData
             // 
-            this.btnAllData.Location = new System.Drawing.Point(496, 435);
+            this.btnAllData.Location = new System.Drawing.Point(496, 439);
             this.btnAllData.Name = "btnAllData";
             this.btnAllData.Size = new System.Drawing.Size(88, 23);
             this.btnAllData.TabIndex = 10;
@@ -139,7 +139,7 @@
             // 
             // nudQuantity
             // 
-            this.nudQuantity.Location = new System.Drawing.Point(392, 467);
+            this.nudQuantity.Location = new System.Drawing.Point(392, 471);
             this.nudQuantity.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -153,7 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(603, 496);
+            this.ClientSize = new System.Drawing.Size(596, 501);
             this.Controls.Add(this.nudQuantity);
             this.Controls.Add(this.btnAllData);
             this.Controls.Add(this.dataGridView1);
